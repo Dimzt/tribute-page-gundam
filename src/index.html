@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../build.css" />
+    <title>Tribute Page - Gundam</title>
+  </head>
+  <body>
+    <header class="bg-primary fixed left-0 top-0 right-0 z-10">
+      <ul class="h-16 flex justify-center items-center space-x-5">
+        <li><a href="#home" class="text-opacity-60 hover:text-opacity-100 text-base text-white font-poppins font-semibold">Home</a></li>
+        <li><a href="#concept" class="text-opacity-60 hover:text-opacity-100 text-base text-white font-poppins font-semibold">Concept</a></li>
+        <li><a href="#gallery" class="text-opacity-60 hover:text-opacity-100 text-base text-white font-poppins font-semibold">Gallery</a></li>
+        <li><a href="#about" class="text-opacity-60 hover:text-opacity-100 text-base text-white font-poppins font-semibold">About</a></li>
+      </ul>
+    </header>
+    <main class="bg-primary">
+      <!-- START: Hero -->
+      <section class="pt-24 text-center" id="home">
+        <h1 class="text-6xl mb-2 text-white font-poppins">Gundam</h1>
+        <p class="text-white font-poppins mb-16">The franchise features giant robots</p>
+        <figure>
+          <img src="/public/images/white-gundam.png" alt="white gundam" class="brightness-75 mb-2" />
+          <figcaption class="text-white font-light">White Gundam</figcaption>
+        </figure>
+      </section>
+      <!-- END: Hero -->
+
+      <!-- START: Concept -->
+      <section class="w-8/12 mx-auto pt-16" id="concept">
+        <h2 class="text-center text-3xl text-white font-semibold mb-4">Concept</h2>
+        <p class="text-white">
+          Mobile Suit Gundam was developed by animator Yoshiyuki Tomino and a changing group of Sunrise creators with the collective pseudonym of Hajime Yatate. The series was originally entitled Freedom Fighter Gunboy (or Gunboy) for the
+          robot's gun, with teen boys the primary target demographic. Early production had a number of references to freedom: the White Base was originally "Freedom's Fortress", the Core Fighter was the "Freedom Wing" and the Gunperry was
+          the "Freedom Cruiser". The Yatate team combined the English word "gun" with the last syllable of the word "freedom" to form the portmanteau Gundom. Tomino changed it to Gundam, suggesting a unit wielding a gun powerful enough to
+          hold back enemies like a hydroelectric dam holding back water. In keeping with the concept, Gundams are depicted as prototypes or limited-production, with higher capabilities than mass-produced units.
+        </p>
+      </section>
+      <!-- END: Concept -->
+
+      <!-- START: Gallery -->
+      <section class="w-8/12 mx-auto pt-16" id="gallery">
+        <h2 class="text-center text-3xl text-white font-semibold mb-4">Gallery</h2>
+        <div class="flex flex-wrap -m-2">
+          <div class="w-6/12 p-2">
+            <img src="/public/images/gundam-1.png" alt="Gundam 1" class="w-full rounded-md" />
+          </div>
+          <div class="w-6/12 p-2">
+            <img src="/public/images/gundam-2.png" alt="Gundam 2" class="w-full rounded-md" />
+          </div>
+          <div class="w-6/12 p-2">
+            <img src="/public/images/gundam-3.png" alt="Gundam 3" class="w-full rounded-md" />
+          </div>
+          <div class="w-6/12 p-2">
+            <img src="/public/images/gundam-4.png" alt="Gundam 4" class="w-full rounded-md" />
+          </div>
+        </div>
+      </section>
+      <!-- END: Gallery -->
+
+      <!-- START: Footer -->
+      <footer class="text-white text-center p-10" id="about">You can read more about gundam in <a href="https://wikipedia.com" class="text-wikipedia font-semibold">Wikipedia</a></footer>
+      <!-- END: Footer -->
+    </main>
+  </body>
+</html>
